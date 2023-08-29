@@ -9,7 +9,7 @@ interface Props {
   setFiltro: React.Dispatch<React.SetStateAction<number | null>>;
 }
 
-export default function Arquivos({ filtro, setFiltro }: Props) {
+export default function Macarrao({ filtro, setFiltro }: Props) {
   function selecionarFiltro(opcao: IOpcao) {
     if(filtro === opcao.id) return setFiltro(null)
     return setFiltro(opcao.id);
