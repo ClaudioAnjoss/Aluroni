@@ -1,5 +1,6 @@
 @import 'styles/variaveis';
 @import 'styles/breakpoints';
+
 .voltar {
   background-color: transparent;
   border: none;
@@ -8,15 +9,18 @@
   font-size: 1.5rem;
   font-weight: bold;
 }
+
 .container {
   align-items: center;
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
+
 .titulo {
   font-size: 3rem;
 }
+
 .imagem {
   width: 600px;
   img {
@@ -24,6 +28,7 @@
     width: 100%;
   }
 }
+
 .conteudo {
   align-items: center;
   display: flex;
